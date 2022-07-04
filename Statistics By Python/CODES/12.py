@@ -1,0 +1,42 @@
+# indexing => where site of element
+# slicing =>range of sequances
+import numpy as np 
+x = np.arange(5,29)
+# Data In One Diamentional 1D
+print(x) 
+print(x[0])
+print(x[3])
+print(x[4])
+print(x[5])
+print(x[7])
+print(x[8])
+print(x[9])
+print(x[10])
+print(x[11])
+print(x[12])
+print(x[13])
+print(x[7:])
+print(x[:5])
+print(x[4::1])
+print(x[:2:3])
+print(x[-5:])
+print(x[::-5])
+print(x[:-5:])
+print(x[-5::9])
+# Data In Three Dimentiponal 3D Using Random 
+y = np.random.rand(5,3,2)
+print(y)
+y = 7*np.random.rand(5,3,2)
+print(y)
+# round=> remove the partial
+y = np.round(5*np.random.rand(4,2,3))
+print(y)
+print(y[0])
+print(y[4])
+print(y[4,1])
+print(y[4,1,1])
+print(y[4:-1:])
+print(y[4::2])
+print(y[:5:-1])
+print(y[:])
+
